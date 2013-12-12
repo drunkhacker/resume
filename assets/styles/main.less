@@ -1,0 +1,64 @@
+@import "../../bower_components/bootstrap/less/bootstrap.less";
+
+body {
+  background: url(../img/paper_fibers_@2X.png);
+}
+
+.sections {
+  dt {
+    width: 150px;
+    padding-right: 20px;
+    text-align: right;
+    border-right: 1px solid #aaa; 
+  }
+
+  dd {
+    margin-left: 150px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+  margin-top: 30px; 
+  &:first-child {
+    margin-top: 10px;
+  }
+}
+
+.tech-specs {
+  dt {
+    width: 100px;
+  }
+  dd {
+    margin-left: 100px;
+    margin-bottom: 0;
+  }
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.small-header {
+  margin-left: 10px;
+  text-align : center;
+  font-style: italic;
+
+  &:before {
+    content: "— ";
+  }
+  &:after {
+    content: " —";
+  }
+}
+
+hgroup {
+  margin-top: 50px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+
