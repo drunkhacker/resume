@@ -1,0 +1,14 @@
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ src: url('../fonts/NanumBarunGothic.eot');
+ src: url('../fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+ url('../fonts/NanumBarunGothic.woff') format('woff'),
+ url('../fonts/NanumBarunGothic.ttf') format('truetype');
+}
+
+/*font setup*/
+*, body, html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", 'NanumBarunGothic', sans-serif !important; 
+}
+
